@@ -1,0 +1,17 @@
+{
+    "adam.skjervold.online": {
+        "images-filepath": "assets/configuration/images/adam-skjervold/",
+        "headline": "Adam Skjervold",
+        "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day."
+    },
+    "vitalize.digital": {
+        "images-filepath": "assets/configuration/images/vitalize-digital/",
+        "headline": "Vitalize Digital",
+        "description": "Business website descirption..."
+    },
+    "127.0.0.1": {
+        "images-filepath": "assets/configuration/images/adam-skjervold/",
+        "headline": "Sample Domain",
+        "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day."
+    }
+}

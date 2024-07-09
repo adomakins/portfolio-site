@@ -7,43 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
 
-    <header class="container">
-        <img style="max-width: 100%; height: auto; border-radius: 15px;" src="assets/website/adam-skjervold/cover-photo.webp" alt="Adam Skjervold">
-        <h1>Adam Skjervold</h1>
-        <p>Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead its the desire to watch Top Gear for the entire day.</p>
-        <div style="display: flex; align-items: center;">
-            <i class="material-icons">place</i>
-            <p>Seattle, Washington</p>
-        </div>
-    </header>
+    <header id="header" class="container"></header>
 
-    <main class="container">
+    <main id="main-content" class="container">
 
-        <section id="projects"> <!-- Active Projects, Project Ideas, etc. -->
+        <h2>Active Projects</h2>
+        <ul class="card-list" id="active-projects"></ul>
 
-            <h2>Projects</h2>
+        <h2>Project Ideas</h2>
+        <ul class="card-list" id="project-ideas"></ul>
 
-            <template id="callout">
-                <h3 class="title"></h3>
-                <p class="description"></p>
-            </template>
-
-        </section>
+        <h2>Previous Project</h2>
+        <ul class="card-list" id="previous-projects"></ul>
 
     </main>
 
-    <footer class="container">
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
+    <footer id="footer" class="container"></footer>
 
-    <!-- <script src="script.js"></script> -->
+    <script src="main.js" type="module"></script>   
 
 </body>
 

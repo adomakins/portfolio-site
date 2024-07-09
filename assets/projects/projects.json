@@ -1,6 +1,6 @@
 [
     {
-        "title": "Project One",
+        "title": "Sales Sentinel",
         "status": "Active",
         "color": "#000000",
         "description": "Description of Project One",
@@ -9,7 +9,16 @@
         "image": "path/to/project-one-image.jpg"
     },
     {
-        "title": "Project Two",
+        "title": "Codified Websites",
+        "status": "Idea",
+        "color": "#000000",
+        "description": "Description of Project One",
+        "link": "https://example.com/project-one",
+        "logo": "path/to/project-one-image.jpg",
+        "image": "path/to/project-one-image.jpg"
+    },
+    {
+        "title": "AI Ad Management",
         "status": "Idea",
         "color": "#000000",
         "description": "Description of Project Two",
@@ -18,7 +27,16 @@
         "image": "path/to/project-two-image.jpg"
     },
     {
-        "title": "Project Three",
+        "title": "HighLevel AI Features",
+        "status": "Idea",
+        "color": "#000000",
+        "description": "Description of Project Two",
+        "link": "https://example.com/project-two",
+        "logo": "path/to/project-one-image.jpg",
+        "image": "path/to/project-two-image.jpg"
+    },
+    {
+        "title": "Chariots Entertainment",
         "status": "Previous",
         "color": "#000000",
         "description": "Description of Project Three",
@@ -27,8 +45,8 @@
         "image": "path/to/project-three-image.jpg"
     },
     {
-        "title": "Project Three",
-        "status": "Archived",
+        "title": "ShopDrive Agency",
+        "status": "Previous",
         "color": "#000000",
         "description": "Description of Project Three",
         "link": "https://example.com/project-three",

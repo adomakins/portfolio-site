@@ -12,8 +12,7 @@ body {
     border-radius: 25px;
 }
 
-#callout {
-    border: 1px solid #bfbfbf;
-    border-radius: 15px;
-    padding: 0.5rem;
+.card-list {
+    margin: 0;
+    padding: 0;
 }
