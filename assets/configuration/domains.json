@@ -13,5 +13,10 @@
         "images-filepath": "assets/configuration/images/adam-skjervold/",
         "headline": "Sample Domain",
         "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day."
+    },
+    "portfolio-site-sigma-ten.vercel.app": {
+        "images-filepath": "assets/configuration/images/adam-skjervold/",
+        "headline": "Sample Domain",
+        "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day."
     }
 }
