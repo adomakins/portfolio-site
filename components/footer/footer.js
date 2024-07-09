@@ -4,4 +4,5 @@ export const loadFooter = async (config) => {
     const text = await response.text();
     const container = document.getElementById('footer');
     container.innerHTML = text;
+    
 };
