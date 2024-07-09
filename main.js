@@ -32,6 +32,8 @@ function updateHeader(config) {
 
     document.title = config.header.headline;
     document.querySelector('link[rel="icon"]').href = config.header.images + "favicon.png";
+    // document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').content = config.colors.background;
+    document.querySelector('meta[name="theme-color"]').content = config.colors.background;
 
 }
 
