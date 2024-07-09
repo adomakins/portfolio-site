@@ -1,22 +1,42 @@
 {
     "adam.skjervold.online": {
-        "images-filepath": "assets/configuration/images/adam-skjervold/",
-        "headline": "Adam Skjervold",
-        "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day."
-    },
-    "vitalize.digital": {
-        "images-filepath": "assets/configuration/images/vitalize-digital/",
-        "headline": "Vitalize Digital",
-        "description": "Business website descirption..."
+
+        "header": {
+            "headline": "Adam Skjervold",
+            "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day.",
+            "images": "assets/configuration/images/adam-skjervold/"
+        },
+
+        "colors": {
+            "background": "#FFFFFF",
+            "containers": "#F5F5F5",
+            "borders": "#BFBFBF",
+            "primary": "#000000"
+        },
+
+        "contact": {},
+
+        "links": {}
+
     },
     "127.0.0.1": {
-        "images-filepath": "assets/configuration/images/adam-skjervold/",
-        "headline": "Sample Domain",
-        "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day."
-    },
-    "portfolio-site-sigma-ten.vercel.app": {
-        "images-filepath": "assets/configuration/images/adam-skjervold/",
-        "headline": "Sample Domain",
-        "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day."
+        
+        "header": {
+            "headline": "Vitalize Digital",
+            "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day.",
+            "images": "assets/configuration/images/vitalize-digital/"
+        },
+
+        "colors": {
+            "background": "#000000",
+            "containers": "#2e2e2e",
+            "borders": "#5e5e5e",
+            "primary": "#FFFFFF"
+        },
+
+        "contact": {},
+
+        "links": {}
+
     }
 }

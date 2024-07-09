@@ -5,7 +5,9 @@ export const loadHeader = async (config) => {
     const container = document.getElementById('header');
     container.innerHTML = text;
 
-    container.querySelector('#headline').textContent = config.headline;
-    container.querySelector('#description').textContent = config.description;
+    container.querySelector('#cover').src = config.header.images + 'cover.webp';
+    container.querySelector('#cover').alt = config.header.headline;
+    container.querySelector('#headline').textContent = config.header.headline;
+    container.querySelector('#description').textContent = config.header.description;
 
 };

@@ -6,9 +6,15 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const config = await getConfig();
 
-    await loadHeader(config);
+    // Load HTML components
+    loadHeader(config);
     await loadCards(config);
-    await loadFooter(config);
+    loadFooter(config);
+
+    // Update domain elements
+    updateHeader(config);
+    // updateStyles(config);
+    updateStyles(config);
 
 });
 
@@ -19,5 +25,36 @@ async function getConfig() {
     const domain = window.location.hostname;
 
     return domainsJSON[domain];
+
+}
+
+function updateHeader(config) {
+
+    document.title = config.header.headline;
+    document.querySelector('link[rel="icon"]').href = config.header.images + "favicon.png";
+
+}
+
+function updateStyles(config) {
+
+    // Update body styles
+    document.body.style.backgroundColor = config.colors.background; // Background color
+    document.body.style.color = config.colors.primary; // Text color
+
+    document.querySelectorAll('.callout').forEach(callout => {
+        // callout.style.borderColor = config.colors.borders;
+        callout.style.borderColor = config.colors.borders;
+        console.log(`Updated callout element: ${callout}, border color: ${config.colors.borders}`);
+    });
+
+    // Update .container class
+    document.querySelectorAll('.container').forEach(container => {
+        container.style.backgroundColor = config.colors.containers;
+        console.log(`Updated container element: ${container}, background color: ${config.colors.containers}`);
+    });
+
+    document.querySelectorAll('.callout').forEach(callout => {
+        callout.style.borderColor = config.colors.borders;
+    });
 
 }
