@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     await loadCards(config);
 
     // Update dynamic elements
-    updateHeader(config);
-    updateStyles(config);
+    await updateHeader(config);
+    await updateStyles(config);
 
 });
 
