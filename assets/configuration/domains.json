@@ -12,7 +12,7 @@
             "containers": "#F5F5F5",
             "borders": "#BFBFBF",
             "primary": "#000000",
-            "secondary": "#050505"
+            "secondary": "#939393"
         },
 
         "contact": {},
@@ -33,7 +33,7 @@
             "containers": "#2e2e2e",
             "borders": "#5e5e5e",
             "primary": "#FFFFFF",
-            "secondary": "#F9F9F9"
+            "secondary": "#C4C4C4"
         },
 
         "contact": {},
