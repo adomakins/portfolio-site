@@ -6,19 +6,14 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="">
 
-    <link rel="stylesheet" href="main.css">
-
-    <link rel="icon" href="" type="image/x-icon">
     <title></title>
     <description></description>
 
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-    <!-- Set the status bar color to black -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="">
-    <!-- Set the background color -->
-    <meta name="theme-color" content="">
 
 </head>
 
@@ -26,16 +21,31 @@
 
     <header id="header" class="container flexbox"></header>
 
-    <main id="main" class="container">
+    <main id="main">
 
-        <h2>Active Projects</h2>
-        <ul class="card-list" id="active-projects"></ul>
+        <section class="container">
 
-        <h2>Project Ideas</h2>
-        <ul class="card-list" id="project-ideas"></ul>
+            <h2>Active Projects</h2>
+            <p>These are my active projects that I'm working on and thinking about on a daily basis.</p>
+            <ul class="card-list" id="active-projects"></ul>
 
-        <h2>Previous Project</h2>
-        <ul class="card-list" id="previous-projects"></ul>
+        </section>
+
+        <section class="container">
+
+            <h2>Idea Board</h2>
+            <p>My running ideas list of projects that I may decide to bring into reality.</p>
+            <ul class="card-list" id="project-ideas"></ul>
+
+        </section>
+
+        <section class="container">
+
+            <h2>Project History</h2>
+            <p>These are projects that I've completed in the past and are no longer active.</p>
+            <ul class="card-list" id="previous-projects"></ul>
+
+        </section>
 
     </main>
 

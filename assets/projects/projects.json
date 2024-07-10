@@ -4,43 +4,43 @@
         "status": "Active",
         "color": "#000000",
         "description": "Description of Project One",
-        "link": "https://example.com/project-one",
-        "logo": "path/to/project-one-image.jpg",
-        "image": "path/to/project-one-image.jpg"
+        "link": "https://adomakins.craft.me/sales-sentinel",
+        "logo": "",
+        "image": ""
     },
     {
         "title": "Codified Websites",
         "status": "Idea",
         "color": "#000000",
         "description": "Description of Project One",
-        "link": "https://example.com/project-one",
-        "logo": "path/to/project-one-image.jpg",
-        "image": "path/to/project-one-image.jpg"
+        "link": "https://adomakins.craft.me/codified-websites",
+        "logo": "",
+        "image": ""
     },
     {
         "title": "AI Ad Management",
         "status": "Idea",
         "color": "#000000",
         "description": "Description of Project Two",
-        "link": "https://example.com/project-two",
-        "logo": "path/to/project-one-image.jpg",
-        "image": "path/to/project-two-image.jpg"
+        "link": "https://adomakins.craft.me/ai-ad-management",
+        "logo": "",
+        "image": ""
     },
     {
         "title": "HighLevel AI Features",
         "status": "Idea",
         "color": "#000000",
         "description": "Description of Project Two",
-        "link": "https://example.com/project-two",
-        "logo": "path/to/project-one-image.jpg",
-        "image": "path/to/project-two-image.jpg"
+        "link": "https://adomakins.craft.me/ai-ghl-features",
+        "logo": "",
+        "image": ""
     },
     {
         "title": "Chariots Entertainment",
         "status": "Previous",
         "color": "#000000",
         "description": "Description of Project Three",
-        "link": "https://example.com/project-three",
+        "link": "https://www.youtube.com/@chariots7646",
         "logo": "path/to/project-one-image.jpg",
         "image": "path/to/project-three-image.jpg"
     },
@@ -49,7 +49,7 @@
         "status": "Previous",
         "color": "#000000",
         "description": "Description of Project Three",
-        "link": "https://example.com/project-three",
+        "link": "https://shopdrive.io/",
         "logo": "path/to/project-one-image.jpg",
         "image": "path/to/project-three-image.jpg"
     }

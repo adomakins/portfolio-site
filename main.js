@@ -7,13 +7,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     const config = await getConfig();
 
     // Load HTML components
-    loadHeader(config);
+    await loadHeader(config);
     await loadCards(config);
-    loadFooter(config);
+    await loadFooter(config);
 
-    // Update domain elements
+    // Update dynamic elements
     updateHeader(config);
-    // updateStyles(config);
     updateStyles(config);
 
 });
@@ -32,7 +31,6 @@ function updateHeader(config) {
 
     document.title = config.header.headline;
     document.querySelector('link[rel="icon"]').href = config.header.images + "favicon.png";
-    // document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]').content = config.colors.background;
     document.querySelector('meta[name="theme-color"]').content = config.colors.background;
 
 }
@@ -43,20 +41,25 @@ function updateStyles(config) {
     document.body.style.backgroundColor = config.colors.background; // Background color
     document.body.style.color = config.colors.primary; // Text color
 
+
+    // Update .callout class border color
     document.querySelectorAll('.callout').forEach(callout => {
-        // callout.style.borderColor = config.colors.borders;
         callout.style.borderColor = config.colors.borders;
-        console.log(`Updated callout element: ${callout}, border color: ${config.colors.borders}`);
     });
 
-    // Update .container class
+    // Update .container class background color
     document.querySelectorAll('.container').forEach(container => {
         container.style.backgroundColor = config.colors.containers;
-        console.log(`Updated container element: ${container}, background color: ${config.colors.containers}`);
     });
 
-    document.querySelectorAll('.callout').forEach(callout => {
-        callout.style.borderColor = config.colors.borders;
+    // Update callout titles to primary color
+    document.querySelectorAll('.callout .title').forEach(icon => {
+        icon.style.color = config.colors.primary;
+    });
+
+    // Update paragraphs and icons to secondary color
+    document.querySelectorAll('.material-icons, p').forEach(item => {
+        item.style.color = config.colors.secondary;
     });
 
 }

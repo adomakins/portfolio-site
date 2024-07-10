@@ -11,7 +11,8 @@
             "background": "#FFFFFF",
             "containers": "#F5F5F5",
             "borders": "#BFBFBF",
-            "primary": "#000000"
+            "primary": "#000000",
+            "secondary": "#050505"
         },
 
         "contact": {},
@@ -31,7 +32,29 @@
             "background": "#000000",
             "containers": "#2e2e2e",
             "borders": "#5e5e5e",
-            "primary": "#FFFFFF"
+            "primary": "#FFFFFF",
+            "secondary": "#F9F9F9"
+        },
+
+        "contact": {},
+
+        "links": {}
+
+    },
+    "127.0.0.1": {
+        
+        "header": {
+            "headline": "Vitalize Digital",
+            "description": "Every day I get up and I wage war with my mind. The real enemy isn't the work, but instead it's the desire to watch Top Gear for the entire day.",
+            "images": "assets/configuration/images/vitalize-digital/"
+        },
+
+        "colors": {
+            "background": "#000000",
+            "containers": "#2e2e2e",
+            "borders": "#5e5e5e",
+            "primary": "#FFFFFF",
+            "secondary": "#C4C4C4"
         },
 
         "contact": {},
