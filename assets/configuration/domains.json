@@ -15,7 +15,16 @@
             "secondary": "#939393"
         },
 
-        "contact": {},
+        "contact": {
+            "email": {
+                "title": "Send me an email",
+                "address": "adamskjervold@gmail.com"
+            },
+            "website": {
+                "title": "Visit my business website",
+                "address": "https://vitalize.digital"
+            }
+        },
 
         "links": {}
 
@@ -36,7 +45,16 @@
             "secondary": "#C4C4C4"
         },
 
-        "contact": {},
+        "contact": {
+            "email": {
+                "title": "Connect via email",
+                "address": "adam@vitalize.digital"
+            },
+            "website": {
+                "title": "Meet the founder",
+                "address": "https://adam.skjervold.online"
+            }
+        },
 
         "links": {}
 
@@ -57,7 +75,16 @@
             "secondary": "#C4C4C4"
         },
 
-        "contact": {},
+        "contact": {
+            "email": {
+                "title": "Connect via email",
+                "address": "adam@vitalize.digital"
+            },
+            "website": {
+                "title": "Meet the founder",
+                "address": "https://adam.skjervold.online"
+            }
+        },
 
         "links": {}
 

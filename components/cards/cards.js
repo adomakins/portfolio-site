@@ -1,4 +1,4 @@
-export const loadCards = async () => {
+export const loadCards = async (config) => {
 
     // Fetch the card template and insert into the document body
     document.body.insertAdjacentHTML('beforeend', await (await fetch('components/cards/cards.html')).text());
@@ -22,7 +22,7 @@ export const loadCards = async () => {
 
         // Set the title and description for the card
         card.querySelector('.title').textContent = project.title;
-        card.querySelector('.title').style.color = project.primary;
+        // card.querySelector('.title').style.color = project.primary; Might not need this
         
         card.querySelector('.description').textContent = project.description;
 
@@ -41,4 +41,42 @@ export const loadCards = async () => {
             previous.appendChild(link);
         }
     });
+    
+    const contact = document.getElementById("contact-methods");
+
+    const email = document.importNode(callout.content, true);
+    const website = document.importNode(callout.content, true);
+
+    email.querySelector('.title').textContent = config.contact.email.title;
+    website.querySelector('.title').textContent = config.contact.website.title;
+
+    const emailAddress = document.createElement('a');
+    emailAddress.href = "mailto:" + config.contact.email.address;
+    emailAddress.target = "_blank";
+
+    const websiteAddress = document.createElement('a');
+    websiteAddress.href = config.contact.website.address;
+    websiteAddress.target = "_blank";
+
+    emailAddress.appendChild(email);
+    websiteAddress.appendChild(website);
+
+    contact.appendChild(emailAddress);
+    contact.appendChild(websiteAddress);
+
+
+
+    // const card = document.importNode(callout.content, true);
+
+    // card.querySelector('.title').textContent = project.title;
+    
+    // card.querySelector('.description').textContent = project.description;
+
+    // const link = document.createElement('a');
+    // link.href = project.link;
+    // link.target = "_blank"; // Open link in a new tab
+    // link.appendChild(card);
+
+    // active.appendChild(link);
+
 };

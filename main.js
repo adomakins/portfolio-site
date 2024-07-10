@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Load HTML components
     await loadHeader(config);
-    await loadCards(config);
     await loadFooter(config);
+    await loadCards(config);
 
     // Update dynamic elements
     updateHeader(config);
