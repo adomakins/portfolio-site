@@ -1,9 +1,9 @@
 [
     {
-        "title": "Sales Sentinel",
-        "status": "Active",
+        "title": "Stellarr Client Reporting",
+        "status": "Idea",
         "color": "#000000",
-        "description": "Description of Project One",
+        "description": "Clients only get good results when they put the time and effort in to call their leads. But traditionally, it's been a pain to keep them accountable.",
         "link": "https://adomakins.craft.me/sales-sentinel",
         "logo": "",
         "image": ""
@@ -12,25 +12,25 @@
         "title": "Codified Websites",
         "status": "Idea",
         "color": "#000000",
-        "description": "Description of Project One",
+        "description": "Multi-tenant business websites that allow agencies to resell websites with extremely minimal investment and maintenance.",
         "link": "https://adomakins.craft.me/codified-websites",
         "logo": "",
         "image": ""
     },
     {
-        "title": "AI Ad Management",
+        "title": "Stellarr Ad Management",
         "status": "Idea",
         "color": "#000000",
-        "description": "Description of Project Two",
+        "description": "Automated ad creation and management for agencies to improve client results and agency efficiency.",
         "link": "https://adomakins.craft.me/ai-ad-management",
         "logo": "",
         "image": ""
     },
     {
-        "title": "HighLevel AI Features",
-        "status": "Idea",
+        "title": "Stellarr CRM Enhancements",
+        "status": "Active",
         "color": "#000000",
-        "description": "Description of Project Two",
+        "description": "Nobody ever remembers to add tasks or summaries after phone calls. Make that remembered.",
         "link": "https://adomakins.craft.me/ai-ghl-features",
         "logo": "",
         "image": ""
@@ -39,7 +39,7 @@
         "title": "Chariots Entertainment",
         "status": "Previous",
         "color": "#000000",
-        "description": "Description of Project Three",
+        "description": "My first serious endeavor right out of college. Grew to over 1,000 subscribers within a couple of months. Then got bored.",
         "link": "https://www.youtube.com/@chariots7646",
         "logo": "path/to/project-one-image.jpg",
         "image": "path/to/project-three-image.jpg"
@@ -48,7 +48,7 @@
         "title": "ShopDrive Agency",
         "status": "Previous",
         "color": "#000000",
-        "description": "Description of Project Three",
+        "description": "My solution to the boredom from Chariots. But it also gave me a good example of why it's not a bad idea to change ideas if one doesn't fit. Or get you excited. Ever.",
         "link": "https://shopdrive.io/",
         "logo": "path/to/project-one-image.jpg",
         "image": "path/to/project-three-image.jpg"
